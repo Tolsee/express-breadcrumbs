@@ -4,16 +4,19 @@ Simple express middleware for implementing route based breadcrumbs.
 # Sample Uses
 You can simply require the library and use it in your routes as follow:
 
-## Using middleware
+### Using middleware
 
-```var breadcrumbs = require('path-to-file');
-```router.get('/second', breadcrumbs.Middleware(), function(req, res, next) {
-```	res.render('pages/index', {breadcrumbs: req.breadcrumbs});
-```});
+```javascript
+var breadcrumbs = require('path-to-file');
+router.get('/second', breadcrumbs.Middleware(), function(req, res, next) {
+	res.render('pages/index', {breadcrumbs: req.breadcrumbs});
+   });
+```
 
-## Example working with ejs with bootstrap
+### Example working with ejs with bootstrap
 
-`<nav class="breadcrumb">
+```javascript
+<nav class="breadcrumb">
 	<% if(breadcrumbs){ %>
 		<% for(var i=0; i<breadcrumbs.length; i++){ %>
 				<% if(i == (breadcrumbs.length - 1)){ %>
@@ -23,6 +26,7 @@ You can simply require the library and use it in your routes as follow:
 				<% } %>
 		<% } %>
 	<% } %>
-</nav>`
+</nav>
+```
 
 
