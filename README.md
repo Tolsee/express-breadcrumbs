@@ -13,7 +13,7 @@ router.get('/second', breadcrumbs.Middleware(), function(req, res, next) {
    });
 ```
 
-### Example working with ejs with bootstrap
+### Example working with ejs and bootstrap
 
 ```javascript
 <nav class="breadcrumb">
