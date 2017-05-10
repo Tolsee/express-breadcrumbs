@@ -1,0 +1,24 @@
+{
+  "name": "express-breadcrumbs",
+  "version": "1.0.0",
+  "description": "Simple express middleware for implementing route based breadcrumbs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tolsee/express-breadcrumbs.git"
+  },
+  "keywords": [
+    "express",
+    "breadcrumbs",
+    "node"
+  ],
+  "author": "Tulsi Sapkota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tolsee/express-breadcrumbs/issues"
+  },
+  "homepage": "https://github.com/Tolsee/express-breadcrumbs#readme"
+}
