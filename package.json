@@ -1,5 +1,5 @@
 {
-  "name": "express-breadcrumbs",
+  "name": "express-breadcrumb",
   "version": "1.0.0",
   "description": "Simple express middleware for implementing route based breadcrumbs.",
   "main": "index.js",
